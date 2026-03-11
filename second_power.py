@@ -4,4 +4,4 @@ num2 = int(input("Enter second_number: "))
 total = num1 ** num2
 
 if total:
-    print("The quotient is: ", total
+    print("The quotient is: ", total)
