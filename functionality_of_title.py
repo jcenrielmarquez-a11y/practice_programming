@@ -3,7 +3,7 @@ def custom_title(text):
     result_words = []
 
     for word in words:
-        if word:  
+        if word:
             first_char = word[0]
             rest = word[1:]
 
@@ -22,3 +22,10 @@ def custom_title(text):
             result_words.append("")
 
     return " ".join(result_words)
+
+sample1 = "hELLO wORLD from pYTHON"
+sample2 = "multiple   spaces here"
+print("Original:", repr(sample1))
+print("After custom_title:", repr(custom_title(sample1)))
+print("Original:", repr(sample2))
+print("After custom_title:", repr(custom_title(sample2)))
