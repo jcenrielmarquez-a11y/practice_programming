@@ -8,3 +8,7 @@ def custom_swapcase(text):
         else:
             result += char
     return result
+
+sample = "Hello World 123!"
+print("Original:", repr(sample))
+print("After custom_swapcase:", repr(custom_swapcase(sample)))it 
