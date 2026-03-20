@@ -11,4 +11,4 @@ def custom_swapcase(text):
 
 sample = "Hello World 123!"
 print("Original:", repr(sample))
-print("After custom_swapcase:", repr(custom_swapcase(sample)))it 
+print("After custom_swapcase:", repr(custom_swapcase(sample)))
