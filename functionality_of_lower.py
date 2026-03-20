@@ -8,3 +8,7 @@ def custom_lower(text):
         else:
             result += char
     return result
+
+sample = "Hello WORLD!"
+print("Original:", repr(sample))
+print("After custom_lower:", repr(custom_lower(sample)))
