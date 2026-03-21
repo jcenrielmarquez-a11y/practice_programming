@@ -7,3 +7,10 @@ def custom_rindex(text, sub):
             return i
 
     raise ValueError(f"Substring '{sub}' not found in '{text}'")
+
+sample1 = "banana"
+sample2 = "hello world, hello universe"
+print("Original:", repr(sample1))
+print("rindex of 'na':", custom_rindex(sample1, "na"))  
+print("Original:", repr(sample2))
+print("rindex of 'hello':", custom_rindex(sample2, "hello"))
