@@ -9,4 +9,4 @@ sample2 = "Hello"
 print("Original:", repr(sample1))
 print("After custom_zfill:", repr(custom_zfill(sample1, 6)))
 print("Original:", repr(sample2))
-print("After custom_zfill:", repr(custom_zfill(sample2, 8))) 
+print("After custom_zfill:", repr(custom_zfill(sample2, 8)))
